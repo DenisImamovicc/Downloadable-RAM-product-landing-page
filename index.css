@@ -1,17 +1,11 @@
-
-
-
-#main{
+#main {
     display: flex;
 }
 
-#nav-bar{
+#nav-bar {
     position: sticky;
 }
 
-
-
-
-@media screen (){
-    
-}
+/* @media screen (){
+ 
+} */
