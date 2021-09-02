@@ -1,9 +1,61 @@
-#main {
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+#header{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: teal;
+}
+
+#header-img{
+    width: 50px;
+    height: auto;
 }
 
 #nav-bar {
-    position: sticky;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    /* border: 3px solid #73AD21; */
+}
+
+#nav-bar-ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-link{
+}
+
+a{
+    text-decoration: none;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#Why-download-ram{
+    height: 100vh;
+    background-color: green;
+}
+#product-line{
+    height: 100vh;
+    background-color: yellow;
+
+}
+#Signing-in{
+    height: 100vh;
+    background-color: red;
 }
 
 /* @media screen (){
