@@ -10,21 +10,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
     background-color: teal;
+    padding-bottom: 1rem;
+    border: 3px solid white;
+
 }
 
 #header-img{
     width: 50px;
     height: auto;
+
+    top: 0.5rem;
+    margin-left: 0.5rem;
+    position: relative;
 }
 
 #nav-bar {
     position: fixed;
-    top: 0;
+    top: 1rem;
     right: 0;
-    width: 400px;
-    /* border: 3px solid #73AD21; */
+    margin-right: 1rem;
+    /* width: 400px; */
+    border: 3px solid white;
+    background-color: teal;
 }
 
 #nav-bar-ul{
@@ -33,10 +43,18 @@
 }
 
 .nav-link{
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 a{
     text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+    background-color: rgba(1, 7, 7, 0.76);
 }
 
 #main {
