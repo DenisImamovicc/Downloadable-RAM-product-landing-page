@@ -105,7 +105,6 @@ video{
     border-radius: 1rem;
     margin: 1rem;
     padding:1rem
-    
 }
 
 .usp:hover{
@@ -118,13 +117,33 @@ video{
 }
 
 #product-line {
-    height: 100vh;
-    background-color: yellow;
+    min-height: 100vh;
+    background-color: teal;
+}
 
+#product-line-titel{
+    text-align: center;
+    padding-top: 1rem;
+}
+#products{
+    display: flex;
+    flex-direction: column;
+}
+
+.product{
+    border: 3px solid white;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding:1rem
+}
+
+.product-img{
+    height: auto;
+    width: 20%;
 }
 
 #Signing-in {
-    height: 100vh;
+    min-height: 100vh;
     background-color: red;
 }
 
