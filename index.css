@@ -124,6 +124,7 @@ video{
 #product-line-titel{
     text-align: center;
     padding-top: 1rem;
+    color: white;
 }
 #products{
     display: flex;
@@ -134,12 +135,24 @@ video{
     border: 3px solid white;
     border-radius: 1rem;
     margin: 1rem;
-    padding:1rem
+    padding:1rem;
+    display:flex;
+}
+
+.product:hover{
+    background-color: black;
+    color: red;
 }
 
 .product-img{
     height: auto;
     width: 20%;
+    
+}
+
+.product-non-img{
+    color: white;
+
 }
 
 #Signing-in {
