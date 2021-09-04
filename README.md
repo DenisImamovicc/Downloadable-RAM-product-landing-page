@@ -4,4 +4,6 @@
 
 Mainly by developing and designing a product landing page to closely resemble one that sells downloadable RAM :)
 
+Source:<https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page>
+
 Enjoy!
