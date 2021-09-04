@@ -157,19 +157,61 @@ video{
 }
 
 #Signing-in {
-    min-height: 50vh;
-    background-color: teal;
+    min-height: 100vh;
+    background-image: url(Images/Background-Sign-in.png);
+    background-color: gray;
+    background-size: cover; 
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 #Signing-in-titel {
     display: block;
     text-align: center;
-    font-size: xx-large;
+    font-size: 4em;
+}
+
+#Signing-in-container{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.438);  
+    backdrop-filter: blur(5px);    
+    color: black;
+
+    padding: 3rem;
+}
+
+#Signing-in-text{
+    font-size: 1.1rem;
+}
+
+#submit-button{
+    background-color: rgb(4, 170, 170);
+    color: white;
+    margin: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+#submit-button:hover{
+    border: 1px solid white;
+}
+#email-input{
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    padding-left: 0.2rem;
+}
+
+#email-input:hover{
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid white;
 }
 
 /* @media screen (){

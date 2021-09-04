@@ -106,21 +106,27 @@
                     </div>
                 </div>
             </div>
-            <hr>
+
 
         </section>
 
         <section id="Signing-in">
-            <h2 id="Signing-in-titel">Join our Email newsletter</h2>
-            <p>For future deals,stock updates and more!</p>
-            <form method="POST" id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
-                <label for="Email" id="label-email">
-                    <input type="email" name="email" id="email" required placeholder="Email">
-                </label>
-                <label for="form">
-                    <input type="submit" value="Sign me in!" id="submit">
-                </label>
-            </form>
+            <div id="Signing-in-container">
+                <h2 id="Signing-in-titel">Join our Email newsletter</h2>
+                <p id="Signing-in-text">For future deals,stock updates and more!</p>
+                <form method="POST" id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+                    <label for="Email" id="label-email">
+                        <input type="email" name="email" id="email-input" required placeholder="Email">
+                    </label>
+                    <label for="form">
+                        <input type="submit" value="Sign me in!" id="submit-button">
+                    </label>
+                    
+                </form>
+                <em>
+                    <p id="">By signing in you agree and read the terms of service</p>
+                </em>
+            </div>
         </section>
     </main>
 
